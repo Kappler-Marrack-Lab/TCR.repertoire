@@ -1,0 +1,92 @@
+Sample	MHC	Tetraparental_Cell_Source	Cell_Number	Co-receptor	Mouse_Count	Concern
+222 postj	ff	N/A	2.13	CD4	1	N/A
+225 postJ	ff	N/A	1.15	CD4	1	N/A
+228 postJ	ff	N/A	0.633	CD4	1	N/A
+252 postJ	ss	N/A	1.69	CD4	1	N/A
+255 postj	ss	N/A	0.7	CD4	1	N/A
+264 postJ	bb	N/A	1.05	CD4	1	N/A
+267 postJ	bb	N/A	2.96	CD4	1	N/A
+270 postJ	bb	N/A	1.17	CD4	1	N/A
+306 postJ	ss	N/A	1.88	CD4	1	N/A
+376 postJ	bb (C57BL/6)	N/A	7.9	DP	1	N/A
+378 postJ	bb	N/A	6.04	DP	1	N/A
+382 postJ	bb (C57BL/6)	N/A	6	DP	1	N/A
+387 postJ	ff	N/A	403	DP	1	N/A
+388 postJ	bxf	N/A	0.615	CD4	1	N/A
+394_postJ	bxf	N/A	1.52	CD4	1	N/A
+397 postJ	fxs	N/A	0.85	CD4	1	N/A
+400 postJ	fxs	N/A	1.04	CD4	1	N/A
+403 postJ	fxs	N/A	1.16	CD4	1	N/A
+406 postJ	bxs	N/A	1.7	CD4	1	N/A
+409 postJ	bxs	N/A	1.17	CD4	1	N/A
+412 postJ	bxs	N/A	2.66	CD4	1	N/A
+421 postJ	bxf	N/A	1.903	CD4	1	N/A
+438 postJ	ss	N/A	0.07	CD4	1	N/A
+455 postj	bxg7	N/A	0.572	CD4	1	N/A
+456 postj	bxg7	N/A	0.561	CD8	1	N/A
+461LNC.SC_postPy.two_mice	bxf	N/A	2.7445	CD4	2	N/A
+462_462LNC.SC_postPy.two_mice	bxf	N/A	1.1377	CD8	2	N/A
+463_465LNC.SC_postPy.two_mice	ff	N/A	2.391	CD4	2	N/A
+464_466LNC.SC_postPy.two_mice	ff	N/A	0.7849	CD8	2	N/A
+475_477LNC.SC_postPy.two_mice	bxg7	N/A	12.74	CD4	2	N/A
+476_478LNC.SC_postPy.two_mice	bxg7	N/A	1.4773	CD8	2	N/A
+479_postJ_two_mice	bxg7	N/A	8.161	CD4	2	N/A
+480 postj.two_mice	bxg7	N/A	1.913	CD8	2	N/A
+493_postJ	g7g7	N/A	5.498	CD4	1	N/A
+494 postj	g7g7	N/A	2.069	CD8	1	N/A
+495 postj	g7g7	N/A	7.775	CD4	1	N/A
+496 postj	g7g7	N/A	2.314	CD8	1	N/A
+503 postj	g7g7	N/A	2.007	CD4	1	N/A
+504 postj	g7g7	N/A	7.406	CD8	1	N/A
+505_postJ_two_mice	bb	N/A	10.9	CD4	2	N/A
+507newVJ_postPy.two_mice	bb	N/A	2	CD8	2	N/A
+509_postJ_two_mice	bb	N/A	8.983	CD4	2	N/A
+511newVJ_postPy.two_mice	bb	N/A	1.448	CD8	2	N/A
+513 postj.two_mice	bxf	N/A	10.35	CD4	2	N/A
+515 postj.two_mice	bxf	N/A	2.803	CD8	2	N/A
+517 postj.two_mice	bxf	N/A	6.259	CD4	2	N/A
+519 postJ.two_mice	bxf	N/A	2	CD8	2	N/A
+528_postJ	bb&ff	bb	0.284	CD4	tetra	N/A
+529_postJ	bb&ff	ff	0.5301	CD4	tetra	N/A
+530_postJ	bb&ff	bb	0.6341	CD8	tetra	N/A
+531VJ_postPy	bb&ff	ff	0.09259	Cd8	tetra	N/A
+532_postJ	bb&ff	bb	2.236	CD4	tetra	N/A
+533_postJ	bb&ff	ff	0.3279	CD4	tetra	N/A
+534VJ_postPy	bb&ff	bb	0.4239	CD8	tetra	N/A
+535_postJ	bb&ff	ff	0.06643	CD8	tetra	N/A
+537 postJ	bb&ff	ff	2.697	CD4	tetra	N/A
+539_postJ	bb&ff	ff	0.5649	CD8	tetra	N/A
+546 postJ.two_mice	ff	N/A	4.09	CD4	2	N/A
+548 postJ.two_mice	ff	N/A	2	CD8	2	N/A
+550_postJ_two_mice	ff	N/A	4.5	CD4	2	N/A
+552 postJ.two_mice	ff	N/A	2	CD8	2	N/A
+570A and B postj	bb&g7g7	bb	4.093	CD4	tetra	N/A
+572 postj	bb&g7g7	bb	0.1325	CD8	tetra	N/A
+574_postJ	bb&g7g7	bb	2.87	CD4	tetra	N/A
+576 postj	bb&g7g7	bb	0.159	CD8	tetra	N/A
+578_postJ	bb&g7g7	bb	1.086	CD4	tetra	N/A
+579 postj	bb&g7g7	g7g7	1.319	CD4	tetra	N/A
+580 postJ	bb&g7g7	bb	0.06543	CD8	tetra	N/A
+581_postJ	bb&g7g7	g7g7	0.07077	CD8	tetra	N/A
+601VJ_postPy	bb	N/A	0.6058	CD8	1	N/A
+603VJ_postPy	b+/-	N/A	0.833	CD4	1	N/A
+607 postJ	b+/-	N/A	0.9209	CD4	1	N/A
+619VJ_postPy	b+/-	N/A	5.058	CD4	1	N/A
+621VJ_postPy	b+/-	N/A	0.854	CD8	1	N/A
+624 postJ	b+/-	N/A	0.3911	CD4	1	N/A
+626VJ_postPy	b+/-	N/A	0.0227	CD8	1	N/A
+628VJ_postPy	bb	N/A	18.66	DP	1	N/A
+629VJ_postPy	bb	N/A	44.74	DP	1	N/A
+630VJ_postPy	bb	N/A	21.94	DP	1	N/A
+631 postJ	bxg7	N/A	2.128	CD4	1	N/A
+633 postJ	bxg7	N/A	0.3539	CD8	1	N/A
+636 postJ	ff	N/A	0.9134	CD8	1	N/A
+640 postJ	bxf	N/A	0.3208	CD8	1	N/A
+643_postJ	bxg7	N/A	3.269	CD4	1	N/A
+645 postJ	bxg7	N/A	0.8074	CD8	1	N/A
+653 postJ	bb	N/A	0.8896	CD8	1	N/A
+655 postJ	b+/-	N/A	2.379	CD4	1	N/A
+657 postJ	b+/-	N/A	0.4649	CD8	1	N/A
+683_c520_postJ	g7g7	N/A	8.406	CD4	1	N/A
+687_c520_postJ	g7g7	N/A	4.922	CD4	1	N/A
+691_c520_postJ	g7g7	N/A	5.895	CD4	1	N/A

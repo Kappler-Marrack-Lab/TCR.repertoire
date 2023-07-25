@@ -1,0 +1,71 @@
+---
+title: "update database"
+author: "Alex Brown"
+date: "2022-09-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(immunarch)
+library(vroom)
+library(tidyverse)
+```
+
+## Update source data
+
+This will update the data files which are mapped to immunearch compatible lists. Note: set the working directory to this source file locaiton before updating anything. Data files are being sourced from here: `.../TCR-MHC DB/Analysis/total_repertoire_data`
+
+```{r Update.total_repertoire_data}
+source("TCR_fixed_beta_total_rep.R", chdir = T)
+```
+
+<!-- This will re-update the paired combinations files. These files take non-redundant combinations of sequencing runs and combine the samples. to create a simulated "2x mice per sample" run. Or in some instances two animals had their T cells pooled and sorted and sequenced together. These files are generated here: `.../TCR-MHC DB/1vs2 mice per sample/2 per sample/Two_mice_per_sample_combinations.R` The files are converted into an immunearch compatible format and loaded into R here: `.../TCR-MHC DB/Analysis/paired combinations ImmunArch` -->
+
+<!-- ```{r Update.paired_combinations} -->
+<!-- source("TCR_fixed_beta_paired_combinations.R", chdir = T) -->
+<!-- ``` -->
+
+<!-- Load in simulated cross data. This data is similar to the paired combinations data but it randomly removes 1/2 of the sequences to create samples which look like 1x mouse per sample. This data does not seem to be as useful as the paired combinations data. But we can still load it in. The data is source from here: `.../TCR-MHC DB/Analysis/simulated cross CD4 ImmunArch` -->
+
+<!-- ```{r Update.simulated_cross_combinations} -->
+<!-- source("TCR_fixed_beta_simulated_cross_import.R", chdir = T) -->
+<!-- ``` -->
+
+<!-- Next we will generate a new counts matrix of the repertoire datasets. -->
+
+<!-- ```{r Update.counts.matrix} -->
+<!-- source("Counts.matrix.update.R", chdir = T) -->
+<!-- ``` -->
+
+<!-- Next we will use this counts matrix data to subset the F1 and tetraparental data which has F1 unique clones and or tetraparental unique clones. -->
+
+<!-- ```{r Remove.F1.Tetraparental.Unique.clones} -->
+<!-- source("Remove.F1.Tetraparental.Unique.clones.R", chdir = T) -->
+<!-- ``` -->
+
+<!-- Generate a new counts matrix for the paired+tetraparental+F1 sample CD4 data which then can be used to plot the total number of sequences per group/haplotype. Note that this specific matrix uses sequences which exclude sequences unique to F1 and sequences unique to the tetraparental group to make this count of total unique clonotypes per haplotype group. -->
+
+<!-- ```{r Update.counts.matrix.part2} -->
+<!-- source("Counts.matrix.update.part2.R", chdir = T) -->
+<!-- ``` -->
+
+<!-- Remove low frequency sequences below 5e-06 in each repertoire -->
+
+<!-- ```{r remove_low_freq_sequences} -->
+<!-- source("remove low frequency sequences.R", chdir  = T) -->
+<!-- ``` -->
+
+Create a new counts table.
+Table 1: Contains original data minus sequences which occur once in TRAV-CDR3AA-TRAJ
+Table 2: CDR3NT sequences are aggrigated, frequency is recalcualted after agrigation. a frequency cutoff is applied. ones are then removed.
+For both the frequency values reported are based on the total productive reads in the run (ie, not filtered and ones retained).
+```{r counts tables}
+source("counts_tables.R", chdir = T)
+```
+
+Create a paired partental dataset from the filtered data
+```{r paired parental}
+source("Paired Parental.R", chdir = T)
+```
+
